@@ -1,0 +1,24 @@
+﻿
+
+! enter
+h1 enter
+p enter
+
+automatycznie dokument html, potem nag�owek i paragraf
+
+ctrl+k   +s zapisuje wszytskie dokumenty
+
+ctrl tylda -> consola
+zainstalac GIT scm
+
+przelaczyć konsole na bash
+https://code.visualstudio.com/docs/editor/integrated-terminal
+
+
+
+zaintsalować jshinta npm-em, przez Node
+
+git add *   dodaje wszytskie pliki do mojego repozytorium
+$ git commit -m "pętle"
+
+git log sprawdza jakie byly commity
