@@ -22,3 +22,8 @@ git add *   dodaje wszytskie pliki do mojego repozytorium
 $ git commit -m "pętle"
 
 git log sprawdza jakie byly commity
+
+
+Go Live, F12
+
+typy prymitywne: boolean, 
