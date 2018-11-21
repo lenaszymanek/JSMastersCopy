@@ -1,0 +1,19 @@
+    1  git add*
+    2  git add *
+    3  git commit -m "lekcja 4"
+    4  git push
+    5  cd ..
+    6  cd JSMasters/
+    7  cd zrodlaGit/
+    8  cd JSMasters/
+    9  ls
+   10  git pull origin master
+   11  cd ..
+   12  cd ..
+   13  git status
+   14  git add *
+   15  git status
+   16  git commit -a -m "Lekcja 4 uzup"
+   17  git remote add origin https://github.com/lenaszymanek/JSMastersCopy.git
+   18  git push origin master
+   19  history >plik.txt

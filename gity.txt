@@ -1,0 +1,158 @@
+
+lszymanek@PC503 MINGW32 /c/__FOLDER/JSMasters (master)
+$ git add*
+git: 'add*' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+lszymanek@PC503 MINGW32 /c/__FOLDER/JSMasters (master)
+$ git add *
+
+lszymanek@PC503 MINGW32 /c/__FOLDER/JSMasters (master)
+$ git commit -m "lekcja 4"
+[master 8b6fbb1] lekcja 4
+ Committer: Lena Szymanek <lszymanek@mir.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 273 insertions(+), 1 deletion(-)
+ create mode 100644 lekcje/lekcja4/index.html
+ create mode 100644 lekcje/lekcja4/js1.js
+ create mode 100644 lekcje/lekcja4/js2.js
+
+lszymanek@PC503 MINGW32 /c/__FOLDER/JSMasters (master)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+lszymanek@PC503 MINGW32 /c/__FOLDER/JSMasters (master)
+$ cd ..
+
+lszymanek@PC503 MINGW32 /c/__FOLDER
+$ cd JSMasters/
+
+lszymanek@PC503 MINGW32 /c/__FOLDER/JSMasters (master)
+$ cd zrodlaGit/
+
+lszymanek@PC503 MINGW32 /c/__FOLDER/JSMasters/zrodlaGit (master)
+$ cd JSMasters/
+
+lszymanek@PC503 MINGW32 /c/__FOLDER/JSMasters/zrodlaGit/JSMasters (master)
+$ ls
+lekcje
+
+lszymanek@PC503 MINGW32 /c/__FOLDER/JSMasters/zrodlaGit/JSMasters (master)
+$ git pull origin master
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 7 (delta 1), reused 7 (delta 1), pack-reused 0
+Unpacking objects: 100% (7/7), done.
+From https://github.com/jaceksen/JSMasters
+ * branch            master     -> FETCH_HEAD
+   cf47e9a..c9fd3ae  master     -> origin/master
+Merge made by the 'recursive' strategy.
+ lekcje/lekcja4/index.html |  12 ++++
+ lekcje/lekcja4/js1.js     | 141 ++++++++++++++++++++++++++++++++++++++++++++++
+ lekcje/lekcja4/js2.js     |  68 ++++++++++++++++++++++
+ 3 files changed, 221 insertions(+)
+ create mode 100644 lekcje/lekcja4/index.html
+ create mode 100644 lekcje/lekcja4/js1.js
+ create mode 100644 lekcje/lekcja4/js2.js
+
+lszymanek@PC503 MINGW32 /c/__FOLDER/JSMasters/zrodlaGit/JSMasters (master)
+$ cd ..
+
+lszymanek@PC503 MINGW32 /c/__FOLDER/JSMasters/zrodlaGit (master)
+$ cd ..
+
+lszymanek@PC503 MINGW32 /c/__FOLDER/JSMasters (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+
+        modified:   zrodlaGit/JSMasters (new commits, modified content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+lszymanek@PC503 MINGW32 /c/__FOLDER/JSMasters (master)
+$ git add *
+
+lszymanek@PC503 MINGW32 /c/__FOLDER/JSMasters (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   zrodlaGit/JSMasters
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+
+        modified:   zrodlaGit/JSMasters (modified content)
+
+
+lszymanek@PC503 MINGW32 /c/__FOLDER/JSMasters (master)
+$ git commit -a -m "Lekcja 4 uzup"
+[master a5fccca] Lekcja 4 uzup
+ Committer: Lena Szymanek <lszymanek@mir.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+lszymanek@PC503 MINGW32 /c/__FOLDER/JSMasters (master)
+$ git remote add origin https://github.com/lenaszymanek/JSMastersCopy.git
+
+lszymanek@PC503 MINGW32 /c/__FOLDER/JSMasters (master)
+$ git push origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com': lenaszymanek
+Password for 'https://lenaszymanek@github.com':
+Enumerating objects: 34, done.
+Counting objects: 100% (34/34), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (29/29), done.
+Writing objects: 100% (34/34), 36.35 MiB | 2.53 MiB/s, done.
+Total 34 (delta 7), reused 0 (delta 0)
+remote: Resolving deltas: 100% (7/7), done.
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/lenaszymanek/JSMastersCopy/pull/new/master
+remote:
+To https://github.com/lenaszymanek/JSMastersCopy.git
+ * [new branch]      master -> master
+
+lszymanek@PC503 MINGW32 /c/__FOLDER/JSMasters (master)
+$
