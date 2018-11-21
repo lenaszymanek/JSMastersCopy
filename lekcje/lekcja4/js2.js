@@ -46,7 +46,7 @@ var aa = 'global';
 
 function funkcja(){
     var aa = 'local scope';
-    bb='global scope bo bb bez var';
+    bb='global scope bo bb bez var', ingeruje w zmienną globalną;
     console.log(aa);
     console.log(bb);
 }

@@ -1,8 +1,10 @@
-﻿
+﻿Visual Studio Code
 
 ! enter
 h1 enter
 p enter
+
+komentarz htm ctrl ukosnik
 
 automatycznie dokument html, potem nag�owek i paragraf
 
