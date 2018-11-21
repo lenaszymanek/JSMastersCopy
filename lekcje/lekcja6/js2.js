@@ -44,7 +44,7 @@ kolejnaosoba.nazwisko='Sen';
 console.log(kolejnaosoba);
 
 
-//myk z __prototype
+//myk z __prototype; kopiowanie prototypu z innego obiektu
 
 var osoba3 = Object.create(person);
 console.log(osoba3);
